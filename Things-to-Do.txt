@@ -1,0 +1,27 @@
+1. Create Ship Factory Function
+    - Ships should have a hit function | DONE 6/22
+        -Takes a number then marks the board position as hit | DONE 6/22
+
+    - Ships should have a isSunk function
+        - Calculates based on ship length | DONE 6/22
+            - Determines if a ship has been sunk by checking if all ship positions are hit | DONE 6/22
+
+2. Create Gameboard Factory Function
+    - Gameboard should be able to place ships at certain coordinates through factory function DONE 8/3
+    
+    - Gameboard should have a receiveAttack function that takes a pair of coords, determines whether or not the attack hit a ship and then sends the ‘hit’ function to the correct ship, or records the coordinates of the missed shot.
+
+    - Gameboard should keep track of missed shots to display them properly
+
+    - Gameboard should report whether or not all ships have been sunk
+    
+3. Create Player
+    - Players take turns attacking the enemy Gameboard
+
+    - Make the AI shoot a legal random shot every turn.
+
+4. Create Main Game Loop + Module for DOM Interaction
+    - Now you can begin creating the UI
+
+
+    To 
